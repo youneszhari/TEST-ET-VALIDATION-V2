@@ -14,7 +14,7 @@ public class CalculatorTest {
 
     @Test
     public void testAddition() {
-        assertEquals(3.0, calculator.add(5, 3));
+        assertEquals(8.0, calculator.add(5, 3));
         assertEquals(0.0, calculator.add(-2, 2));
     }
 
